@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+  margin: 1rem auto;
+  height: 3rem;
+  border: 1px solid olive;
+}
+
+.input {
+  margin: 1rem auto;
+  border: 1px solid black;
+  padding: 10px;
+  width: 50%;
+}
+.input > input {
+  border: 1px solid blue;
+  padding: 7px;
+  font-size: 14px;
+  width: 40%;
+}
+.input > button {
+  border: 1px solid blue;
+  padding: 7px;
+  font-size: 14px;
+  width: 20%;
+}
